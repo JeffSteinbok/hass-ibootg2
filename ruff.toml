@@ -1,0 +1,17 @@
+# Ruff configuration for hass-ibootg2
+# See https://docs.astral.sh/ruff/
+
+target-version = "py313"
+line-length = 150
+
+exclude = ["testScripts"]
+
+[lint]
+# E = pycodestyle errors, F = pyflakes
+select = ["E", "F"]
+
+# Wildcard imports are used intentionally (e.g. from .haimports import *).
+ignore = ["F403", "F405", "F401", "E501"]
+
+[lint.per-file-ignores]
+"tests/**" = ["E501"]

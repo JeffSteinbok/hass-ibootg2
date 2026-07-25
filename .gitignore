@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Test / tooling caches
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets (real credentials live in testScripts/secrets/credentials.py)
+testScripts/secrets/*
+!testScripts/secrets/.gitignore
+!testScripts/secrets/credentials.example.py
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

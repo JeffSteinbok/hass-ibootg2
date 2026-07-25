@@ -1,0 +1,22 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Add a Dataprobe iBoot (DxP) device",
+        "data": {
+          "host": "Host IP or hostname",
+          "port": "Port (default 9100)",
+          "username": "Username",
+          "password": "Password",
+          "num_relays": "Number of outlets/relays"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to the device. Check the host, port and credentials."
+    },
+    "abort": {
+      "already_configured": "This device is already configured."
+    }
+  }
+}
