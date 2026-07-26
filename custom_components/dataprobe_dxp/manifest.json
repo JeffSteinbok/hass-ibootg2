@@ -9,5 +9,5 @@
   "iot_class": "local_polling",
   "issue_tracker": "https://github.com/jeffsteinbok/hass-ibootg2/issues",
   "loggers": ["dataprobe_dxp"],
-  "version": "0.0.1"
+  "version": "0.0.2"
 }
