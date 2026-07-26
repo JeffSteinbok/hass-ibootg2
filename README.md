@@ -1,5 +1,10 @@
 # Dataprobe DxP (iBoot) — Home Assistant Integration
 
+[![CI Validation](https://github.com/JeffSteinbok/hass-ibootg2/actions/workflows/ci.yaml/badge.svg)](https://github.com/JeffSteinbok/hass-ibootg2/actions/workflows/ci.yaml)
+[![Release Automation](https://github.com/JeffSteinbok/hass-ibootg2/actions/workflows/release.yaml/badge.svg)](https://github.com/JeffSteinbok/hass-ibootg2/actions/workflows/release.yaml)
+
+[![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg?style=for-the-badge)](https://github.com/hacs/integration)
+
 A simple Home Assistant custom integration to control Dataprobe **iBoot**,
 **iBoot-G2** and **iBoot Bar** devices as switches, using the local **DxP**
 binary protocol (TCP, default port `9100`). No cloud, no external dependencies.
